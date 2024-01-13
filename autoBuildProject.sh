@@ -9,6 +9,7 @@ echo " "
 
 build_dir="build"
 
+
 if [ -d "$build_dir" ]; then
     # Directory exists, remove its contents
     rm -R "$build_dir"/*
