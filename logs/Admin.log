@@ -1,0 +1,125 @@
+[2024/01/12 - 20:44:30] Log initialized
+    Output-file: [./logs/thread_log_139836082091584.log]
+    Starting-format: [$B$L$X$E $T:$J] [$B$F:$E $G] - $B$C$E$Z
+    LOG_LEVEL_ENABLED = 4    enabled log macros are: FATAL + ERROR + WARN + INFO + DEBUG + TRACE
+=======================================================================================================
+
+[[0;37mTRACE[0;39m 20:44:30:993] [[0;37mclient_Thread:[0;39m 24] - [0;37mSTART Thread-ID: 139836082091584[0;39m
+[[0;37mTRACE[0;39m 20:44:30:994] [[0;37mcreate_User:[0;39m 19] - [0;37mSTART thread: 139836082091584, socket: 6[0;39m
+[[0;37mTRACE[0;39m 20:44:30:994] [[0;37mf_find_User:[0;39m 110] - [0;37mSTART [0;39m
+[[0;37mTRACE[0;39m 20:44:30:994] [[0;37mf_find_User:[0;39m 129] - [0;37mEND [User socket: 6] NOT found[0;39m
+[[1;94mDEBUG[0;39m 20:44:30:994] [[1;94mcreate_User:[0;39m 22] - [1;94msocket unique[0;39m
+[[0;37mTRACE[0;39m 20:44:30:994] [[0;37mcreate_User:[0;39m 45] - [0;37m   Added to list - at end[0;39m
+[[0;37mTRACE[0;39m 20:44:30:994] [[0;37mcreate_User:[0;39m 50] - [0;37mEND [0;39m
+[[1;31mERROR[0;39m 20:44:30:994] [[1;31mclientthread.c: client_Thread:[0;39m 40] - [1;31mDumb shit[0;39m
+-------------------------------------------------------------------------------------------------------
+[[1;32mINFO [0;39m 20:44:31:052] [[1;32mclient_Thread:[0;39m 50] - [1;32m   [Client: 6] received a message [length: 10][0;39m
+[[0;37mTRACE[0;39m 20:44:31:052] [[0;37mnetwork_Receive:[0;39m 20] - [0;37mSTART socket: 6, length: 10[0;39m
+[[1;94mDEBUG[0;39m 20:44:31:052] [[1;94mnetwork_Receive:[0;39m 32] - [1;94m   [Magic] valid[0;39m
+[[1;94mDEBUG[0;39m 20:44:31:052] [[1;94mnetwork_Receive:[0;39m 33] - [1;94m   [Version] valid[0;39m
+[[1;94mDEBUG[0;39m 20:44:31:052] [[1;94mnetwork_Receive:[0;39m 34] - [1;94m   [Name length] valid[0;39m
+[[0;37mTRACE[0;39m 20:44:31:052] [[0;37mnetwork_Receive:[0;39m 57] - [0;37mEND [0;39m
+[[1;32mINFO [0;39m 20:44:31:052] [[1;32mclient_Thread:[0;39m 53] - [1;32mnetwork_Receive() finished[0;39m
+[[1;94mDEBUG[0;39m 20:44:31:052] [[1;94mclient_Thread:[0;39m 54] - [1;94mnetwork_Receive was a success [Code: 1][0;39m
+[[0;37mTRACE[0;39m 20:44:31:052] [[0;37mis_name_free:[0;39m 137] - [0;37mSTART [name: Admin][0;39m
+[[1;94mDEBUG[0;39m 20:44:31:052] [[1;94mis_name_free:[0;39m 141] - [1;94m   found valid list, starting iteration[0;39m
+[[0;37mTRACE[0;39m 20:44:31:052] [[0;37mis_name_free:[0;39m 147] - [0;37m   User [socket: 5] [name: maich][0;39m
+[[0;37mTRACE[0;39m 20:44:31:052] [[0;37mis_name_free:[0;39m 147] - [0;37m   User [socket: 6] [name: ][0;39m
+[[0;37mTRACE[0;39m 20:44:31:052] [[0;37mis_name_free:[0;39m 160] - [0;37mEND [0;39m
+[[1;94mDEBUG[0;39m 20:44:31:052] [[1;94mclient_Thread:[0;39m 65] - [1;94m   Name free[0;39m
+[[0;37mTRACE[0;39m 20:44:31:052] [[0;37mf_Name_has_forbidden_char:[0;39m 237] - [0;37mSTART [0;39m
+[[0;37mTRACE[0;39m 20:44:31:052] [[0;37mf_Name_has_forbidden_char:[0;39m 253] - [0;37mEND [0;39m
+[[1;94mDEBUG[0;39m 20:44:31:052] [[1;94mclient_Thread:[0;39m 66] - [1;94m   Name has only valid charater[0;39m
+[[1;32mINFO [0;39m 20:44:31:052] [[1;32mclient_Thread:[0;39m 68] - [1;32m   make login response [response_Code: 0][0;39m
+[[0;37mTRACE[0;39m 20:44:31:052] [[0;37mbuild_login_response:[0;39m 81] - [0;37mSTART [0;39m
+[[0;37mTRACE[0;39m 20:44:31:052] [[0;37mPrint_message_Info:[0;39m 257] - [0;37m
+     [type: 1 => MT_LoginResponse]
+     [length: 5 + 9] 
+     [magic: 0x01c001c0]
+     [version: 0]
+     [name: Server_04][0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mbuild_login_response:[0;39m 92] - [0;37mEND [0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mnetwork_Send:[0;39m 64] - [0;37mSTART Sending to Socked: 6[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mPrint_message_Info:[0;39m 257] - [0;37m
+     [type: 1 => MT_LoginResponse]
+     [length: 5 + 9] 
+     [magic: 0x01c001c0]
+     [version: 0]
+     [name: Server_04][0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mnetwork_Send:[0;39m 69] - [0;37mEND [0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mlogin_User:[0;39m 167] - [0;37mSTART  Size: 5[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mlogin_User:[0;39m 175] - [0;37mEND [0;39m
+[[1;32mINFO [0;39m 20:44:31:053] [[1;32mclient_Thread:[0;39m 85] - [1;32mmake [User added] for group [name: Admin/5][0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mbuild_User_Added:[0;39m 98] - [0;37mSTART [size: 5] [Use time:  true][0;39m
+[[1;94mDEBUG[0;39m 20:44:31:053] [[1;94mbuild_User_Added:[0;39m 102] - [1;94m   [timestamp] valid[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mbuild_User_Added:[0;39m 105] - [0;37m   [name size: 5][0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mPrint_message_Info:[0;39m 281] - [0;37m
+     [type: 4 => MT_UserAdd]
+     [length: 8 + 5]
+     [time: 1705088671]
+     [name: Admin][0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mbuild_User_Added:[0;39m 110] - [0;37mEND [0;39m
+[[1;94mDEBUG[0;39m 20:44:31:053] [[1;94mbroadcast_message:[0;39m 101] - [1;94m   [broadcast_queue] not full[0;39m
+[[1;94mDEBUG[0;39m 20:44:31:053] [[1;94mbroadcast_message:[0;39m 102] - [1;94mMessage send to [broadcast_queue][0;39m
+[[1;32mINFO [0;39m 20:44:31:053] [[1;32mclient_Thread:[0;39m 91] - [1;32mmake [User added] for new user...[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mclient_Thread:[0;39m 92] - [0;37mMutex locked[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mbuild_User_Added:[0;39m 98] - [0;37mSTART [size: 5] [Use time: false][0;39m
+[[1;94mDEBUG[0;39m 20:44:31:053] [[1;94mbuild_User_Added:[0;39m 102] - [1;94m   [timestamp] valid[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mbuild_User_Added:[0;39m 105] - [0;37m   [name size: 5][0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mPrint_message_Info:[0;39m 281] - [0;37m
+     [type: 4 => MT_UserAdd]
+     [length: 8 + 5]
+     [time: 0]
+     [name: maich][0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mbuild_User_Added:[0;39m 110] - [0;37mEND [0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mnetwork_Send:[0;39m 64] - [0;37mSTART Sending to Socked: 6[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mPrint_message_Info:[0;39m 281] - [0;37m
+     [type: 4 => MT_UserAdd]
+     [length: 8 + 5]
+     [time: 0]
+     [name: maich][0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mnetwork_Send:[0;39m 69] - [0;37mEND [0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mclient_Thread:[0;39m 92] - [0;37mMutex unlocked[0;39m
+-------------------------------------------------------------------------------------------------------
+[[1;31mERROR[0;39m 20:44:31:054] [[1;31mclientthread.c: client_Thread:[0;39m 40] - [1;31mDumb shit[0;39m
+-------------------------------------------------------------------------------------------------------
+[[1;32mINFO [0;39m 20:44:32:259] [[1;32mclient_Thread:[0;39m 50] - [1;32m   [Client: 6] received a message [length: 12][0;39m
+[[0;37mTRACE[0;39m 20:44:32:259] [[0;37mnetwork_Receive:[0;39m 20] - [0;37mSTART socket: 6, length: 12[0;39m
+[[1;94mDEBUG[0;39m 20:44:32:259] [[1;94mnetwork_Receive:[0;39m 41] - [1;94m   [text length] valid[0;39m
+[[0;37mTRACE[0;39m 20:44:32:259] [[0;37mnetwork_Receive:[0;39m 57] - [0;37mEND [0;39m
+[[1;32mINFO [0;39m 20:44:32:259] [[1;32mclient_Thread:[0;39m 53] - [1;32mnetwork_Receive() finished[0;39m
+[[1;94mDEBUG[0;39m 20:44:32:259] [[1;94mclient_Thread:[0;39m 54] - [1;94mnetwork_Receive was a success [Code: 2][0;39m
+[[1;32mINFO [0;39m 20:44:32:259] [[1;32mclient_Thread:[0;39m 105] - [1;32m   Received message[0;39m
+[[0;37mTRACE[0;39m 20:44:32:259] [[0;37mbuild_Server_to_client:[0;39m 135] - [0;37mSTART [0;39m
+[[1;94mDEBUG[0;39m 20:44:32:259] [[1;94mbuild_Server_to_client:[0;39m 142] - [1;94m   [timestamp] valid[0;39m
+[[0;37mTRACE[0;39m 20:44:32:259] [[0;37mbuild_Server_to_client:[0;39m 144] - [0;37m   [name_size: 5][0;39m
+[[0;37mTRACE[0;39m 20:44:32:259] [[0;37mPrint_message_Info:[0;39m 273] - [0;37m
+     [type: 3 => MT_ServerToClient]
+     [length: 40 + 12]
+     [time: 1705088672]
+     [originalSender: Admin]
+     [text: dfhgdfhgdfhg][0;39m
+[[0;37mTRACE[0;39m 20:44:32:259] [[0;37mbuild_Server_to_client:[0;39m 152] - [0;37mEND [0;39m
+[[1;94mDEBUG[0;39m 20:44:32:259] [[1;94mbroadcast_message:[0;39m 101] - [1;94m   [broadcast_queue] not full[0;39m
+[[1;94mDEBUG[0;39m 20:44:32:259] [[1;94mbroadcast_message:[0;39m 102] - [1;94mMessage send to [broadcast_queue][0;39m
+-------------------------------------------------------------------------------------------------------
+[[1;31mERROR[0;39m 20:44:32:259] [[1;31mclientthread.c: client_Thread:[0;39m 40] - [1;31mDumb shit[0;39m
+[[1;32mINFO [0;39m 20:45:02:232] [[1;32mclient_Thread:[0;39m 207] - [1;32m   [Client: 6] disconnected[0;39m
+[[0;37mTRACE[0;39m 20:45:02:232] [[0;37mbuild_User_Removed:[0;39m 116] - [0;37mSTART [0;39m
+[[1;94mDEBUG[0;39m 20:45:02:232] [[1;94mbuild_User_Removed:[0;39m 120] - [1;94m   [timestamp] valid[0;39m
+[[0;37mTRACE[0;39m 20:45:02:232] [[0;37mbuild_User_Removed:[0;39m 124] - [0;37m   [size: 5][0;39m
+[[0;37mTRACE[0;39m 20:45:02:232] [[0;37mPrint_message_Info:[0;39m 289] - [0;37m
+     [type: 5 => MT_UserRemove]
+     [length: 14]
+     [time: 1705088702]
+     [code: 1]
+     [name: Admin][0;39m
+[[0;37mTRACE[0;39m 20:45:02:232] [[0;37mbuild_User_Removed:[0;39m 129] - [0;37mEND [0;39m
+[[0;37mTRACE[0;39m 20:45:02:233] [[0;37mclient_Thread:[0;39m 219] - [0;37mMutex locked[0;39m
+[[0;37mTRACE[0;39m 20:45:02:233] [[0;37mnetwork_Send:[0;39m 64] - [0;37mSTART Sending to Socked: 5[0;39m
+[[0;37mTRACE[0;39m 20:45:02:233] [[0;37mPrint_message_Info:[0;39m 289] - [0;37m
+     [type: 5 => MT_UserRemove]
+     [length: 14]
+     [time: 1705088702]
+     [code: 1]
+     [name: Admin][0;39m

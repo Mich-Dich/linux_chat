@@ -1,0 +1,3 @@
+/home/mich/Documents/RWU/SysProg/chat/build/CMakeFiles/server.dir
+/home/mich/Documents/RWU/SysProg/chat/build/CMakeFiles/edit_cache.dir
+/home/mich/Documents/RWU/SysProg/chat/build/CMakeFiles/rebuild_cache.dir

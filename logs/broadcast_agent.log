@@ -1,0 +1,82 @@
+[2024/01/12 - 20:44:18] Log initialized
+    Output-file: [./logs/thread_log_139836168074816.log]
+    Starting-format: [$B$L$X$E $T:$J] [$B$F:$E $G] - $B$C$E$Z
+    LOG_LEVEL_ENABLED = 4    enabled log macros are: FATAL + ERROR + WARN + INFO + DEBUG + TRACE
+=======================================================================================================
+
+[[0;37mTRACE[0;39m 20:44:18:973] [[0;37mbroadcast_agent:[0;39m 34] - [0;37mSTART [0;39m
+[[1;94mDEBUG[0;39m 20:44:21:770] [[1;94mbroadcast_agent:[0;39m 44] - [1;94m   received a message[0;39m
+[[0;37mTRACE[0;39m 20:44:21:770] [[0;37mbroadcast_agent:[0;39m 45] - [0;37mMutex locked[0;39m
+[[0;37mTRACE[0;39m 20:44:21:770] [[0;37mbroadcast_agent:[0;39m 45] - [0;37m   current target: 5[0;39m
+[[0;37mTRACE[0;39m 20:44:21:770] [[0;37mnetwork_Send:[0;39m 64] - [0;37mSTART Sending to Socked: 5[0;39m
+[[0;37mTRACE[0;39m 20:44:21:770] [[0;37mPrint_message_Info:[0;39m 281] - [0;37m
+     [type: 4 => MT_UserAdd]
+     [length: 8 + 5]
+     [time: 1705088661]
+     [name: maich][0;39m
+[[0;37mTRACE[0;39m 20:44:21:770] [[0;37mnetwork_Send:[0;39m 69] - [0;37mEND [0;39m
+[[0;37mTRACE[0;39m 20:44:21:770] [[0;37mbroadcast_agent:[0;39m 45] - [0;37mMutex unlocked[0;39m
+[[1;94mDEBUG[0;39m 20:44:23:203] [[1;94mbroadcast_agent:[0;39m 44] - [1;94m   received a message[0;39m
+[[0;37mTRACE[0;39m 20:44:23:203] [[0;37mbroadcast_agent:[0;39m 45] - [0;37mMutex locked[0;39m
+[[0;37mTRACE[0;39m 20:44:23:203] [[0;37mbroadcast_agent:[0;39m 45] - [0;37m   current target: 5[0;39m
+[[0;37mTRACE[0;39m 20:44:23:204] [[0;37mnetwork_Send:[0;39m 64] - [0;37mSTART Sending to Socked: 5[0;39m
+[[0;37mTRACE[0;39m 20:44:23:204] [[0;37mPrint_message_Info:[0;39m 273] - [0;37m
+     [type: 3 => MT_ServerToClient]
+     [length: 40 + 8]
+     [time: 1705088663]
+     [originalSender: maich]
+     [text: hjklhjkl][0;39m
+[[0;37mTRACE[0;39m 20:44:23:204] [[0;37mnetwork_Send:[0;39m 69] - [0;37mEND [0;39m
+[[0;37mTRACE[0;39m 20:44:23:204] [[0;37mbroadcast_agent:[0;39m 45] - [0;37mMutex unlocked[0;39m
+[[1;94mDEBUG[0;39m 20:44:23:819] [[1;94mbroadcast_agent:[0;39m 44] - [1;94m   received a message[0;39m
+[[0;37mTRACE[0;39m 20:44:23:819] [[0;37mbroadcast_agent:[0;39m 45] - [0;37mMutex locked[0;39m
+[[0;37mTRACE[0;39m 20:44:23:819] [[0;37mbroadcast_agent:[0;39m 45] - [0;37m   current target: 5[0;39m
+[[0;37mTRACE[0;39m 20:44:23:819] [[0;37mnetwork_Send:[0;39m 64] - [0;37mSTART Sending to Socked: 5[0;39m
+[[0;37mTRACE[0;39m 20:44:23:819] [[0;37mPrint_message_Info:[0;39m 273] - [0;37m
+     [type: 3 => MT_ServerToClient]
+     [length: 40 + 4]
+     [time: 1705088663]
+     [originalSender: maich]
+     [text: jhkl][0;39m
+[[0;37mTRACE[0;39m 20:44:23:819] [[0;37mnetwork_Send:[0;39m 69] - [0;37mEND [0;39m
+[[0;37mTRACE[0;39m 20:44:23:819] [[0;37mbroadcast_agent:[0;39m 45] - [0;37mMutex unlocked[0;39m
+[[1;94mDEBUG[0;39m 20:44:31:053] [[1;94mbroadcast_agent:[0;39m 44] - [1;94m   received a message[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mbroadcast_agent:[0;39m 45] - [0;37mMutex locked[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mbroadcast_agent:[0;39m 45] - [0;37m   current target: 5[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mnetwork_Send:[0;39m 64] - [0;37mSTART Sending to Socked: 5[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mPrint_message_Info:[0;39m 281] - [0;37m
+     [type: 4 => MT_UserAdd]
+     [length: 8 + 5]
+     [time: 1705088671]
+     [name: Admin][0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mnetwork_Send:[0;39m 69] - [0;37mEND [0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mbroadcast_agent:[0;39m 45] - [0;37m   current target: 6[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mnetwork_Send:[0;39m 64] - [0;37mSTART Sending to Socked: 6[0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mPrint_message_Info:[0;39m 281] - [0;37m
+     [type: 4 => MT_UserAdd]
+     [length: 8 + 5]
+     [time: 1705088671]
+     [name: Admin][0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mnetwork_Send:[0;39m 69] - [0;37mEND [0;39m
+[[0;37mTRACE[0;39m 20:44:31:053] [[0;37mbroadcast_agent:[0;39m 45] - [0;37mMutex unlocked[0;39m
+[[1;94mDEBUG[0;39m 20:44:32:259] [[1;94mbroadcast_agent:[0;39m 44] - [1;94m   received a message[0;39m
+[[0;37mTRACE[0;39m 20:44:32:259] [[0;37mbroadcast_agent:[0;39m 45] - [0;37mMutex locked[0;39m
+[[0;37mTRACE[0;39m 20:44:32:259] [[0;37mbroadcast_agent:[0;39m 45] - [0;37m   current target: 5[0;39m
+[[0;37mTRACE[0;39m 20:44:32:259] [[0;37mnetwork_Send:[0;39m 64] - [0;37mSTART Sending to Socked: 5[0;39m
+[[0;37mTRACE[0;39m 20:44:32:259] [[0;37mPrint_message_Info:[0;39m 273] - [0;37m
+     [type: 3 => MT_ServerToClient]
+     [length: 40 + 12]
+     [time: 1705088672]
+     [originalSender: Admin]
+     [text: dfhgdfhgdfhg][0;39m
+[[0;37mTRACE[0;39m 20:44:32:259] [[0;37mnetwork_Send:[0;39m 69] - [0;37mEND [0;39m
+[[0;37mTRACE[0;39m 20:44:32:260] [[0;37mbroadcast_agent:[0;39m 45] - [0;37m   current target: 6[0;39m
+[[0;37mTRACE[0;39m 20:44:32:260] [[0;37mnetwork_Send:[0;39m 64] - [0;37mSTART Sending to Socked: 6[0;39m
+[[0;37mTRACE[0;39m 20:44:32:260] [[0;37mPrint_message_Info:[0;39m 273] - [0;37m
+     [type: 3 => MT_ServerToClient]
+     [length: 40 + 12]
+     [time: 1705088672]
+     [originalSender: Admin]
+     [text: dfhgdfhgdfhg][0;39m
+[[0;37mTRACE[0;39m 20:44:32:260] [[0;37mnetwork_Send:[0;39m 69] - [0;37mEND [0;39m
+[[0;37mTRACE[0;39m 20:44:32:260] [[0;37mbroadcast_agent:[0;39m 45] - [0;37mMutex unlocked[0;39m

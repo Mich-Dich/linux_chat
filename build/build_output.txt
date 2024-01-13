@@ -1,0 +1,29 @@
+Script started on 2024-01-12 20:44:17+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="135" LINES="63"]
+[ 10%] [32mBuilding C object CMakeFiles/server.dir/src/network/broadcastagent.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/server.dir/src/network/connectionhandler.c.o[0m
+In file included from [01m[K/home/mich/Documents/RWU/SysProg/chat/src/network/connectionhandler.c:11[m[K:
+[01m[K/home/mich/Documents/RWU/SysProg/chat/src/network/connectionhandler.c:[m[K In function ‘[01m[Kconnection_handler[m[K’:
+[01m[K/home/mich/Documents/RWU/SysProg/chat/src/network/connectionhandler.c:91:73:[m[K [01;35m[Kwarning: [m[Kcast to pointer from integer of different size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-to-pointer-cast-Wint-to-pointer-cast]8;;[m[K]
+   91 |                 CL_VALIDATE(!pthread_create(&t_id, NULL, client_Thread, [01;35m[K([m[Kvoid*)sock_client), "   Tread created successfully", "pthread_create() => %s",
+      |                                                                         [01;35m[K^[m[K
+[01m[K/home/mich/Documents/RWU/SysProg/chat/src/core/logger.h:165:13:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KCL_VALIDATE[m[K’
+  165 |         if ([01;36m[Kexpr[m[K) {                                                                         \
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/mich/Documents/RWU/SysProg/chat/src/network/connectionhandler.c:50:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 | void connection_handler([01;35m[Kin_port_t port[m[K) {
+      |                         [01;35m[K~~~~~~~~~~^~~~[m[K
+At top level:
+[01m[K/home/mich/Documents/RWU/SysProg/chat/src/network/connectionhandler.c:23:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcreate_socket[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   23 | static int [01;35m[Kcreate_socket[m[K(in_port_t port) {
+      |            [01;35m[K^~~~~~~~~~~~~[m[K
+[ 30%] [32mBuilding C object CMakeFiles/server.dir/src/network/network.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/server.dir/src/core/util.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/server.dir/src/core/logger.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/server.dir/src/main.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/server.dir/src/user.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/server.dir/src/clientthread.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/server.dir/src/application.c.o[0m
+[100%] [32m[1mLinking C executable server[0m
+[100%] Built target server
+
+Script done on 2024-01-12 20:44:17+01:00 [COMMAND_EXIT_CODE="0"]
